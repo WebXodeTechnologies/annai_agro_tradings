@@ -1,28 +1,23 @@
+
 @import "tailwindcss";
 
-@theme {
-  /* Brand Color Definitions */
-  --color-agro-green: #2D5A27;      /* Deep Forest Green for text/headings */
-  --color-agro-light: #F0F7EF;      /* Very Light Green for section backgrounds */
-  --color-agro-orange: #FF9F1C;     /* Light/Vibrant Orange for buttons/accents */
-  --color-agro-white: #FFFFFF;      
-  
-  /* Typography Mapping */
-  --font-heading: "Bricolage Grotesque", sans-serif;
-  --font-body: "Outfit", sans-serif;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@layer base {
-  body {
-    @apply m-0 p-0 box-border scroll-smooth font-body bg-white text-slate-800;
-  }
+html,
+body {
+  
+  scroll-behavior: smooth;
+}
 
-  h1, h2, h3, .h1 {
-    @apply font-heading text-agro-green font-bold tracking-tight;
-  }
+body {
+  font-family: "Outfit", sans-serif;
+}
 
-  /* Utility for a soft agro background */
-  .section-alt {
-    @apply bg-agro-light;
-  }
+h1, .font-heading {
+  font-family: var(--font-bricolage), sans-serif;
+  font-weight: 700;
 }
