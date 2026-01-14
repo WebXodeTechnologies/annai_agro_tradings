@@ -1,6 +1,8 @@
 import { Bricolage_Grotesque, Outfit } from "next/font/google";
 import "./globals.css";
 import { Toaster } from 'react-hot-toast';
+import Navbar from "@/components/hero/Navbar";
+import Footer from "@/components/hero/Footer";
 
 const fontHeading = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -30,7 +32,7 @@ export const metadata = {
     siteName: "Annai Agro Tradings",
     locale: "en_IN",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }], // Recommended for social sharing
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }], 
   },
   robots: { index: true, follow: true },
 };
@@ -54,15 +56,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body className={`${fontHeading.variable} ${fontBody.variable} font-body antialiased bg-white text-slate-900`}>
-        {/* Next.js injects <head> tags from the metadata object automatically */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <Toaster position="top-center" />
+        <Navbar/>
         <main className="min-h-screen">
           {children}
         </main>
+        <Footer/>
       </body>
     </html>
   );
