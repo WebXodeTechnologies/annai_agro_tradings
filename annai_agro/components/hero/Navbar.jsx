@@ -93,7 +93,7 @@ export default function Navbar() {
                         } origin-left overflow-hidden rounded-full`}
                       >
                         {/* Moving Gradient using Logo Green */}
-                        <span className="absolute inset-0 bg-gradient-to-r from-[#67944e] via-[#86b06a] to-[#1a1a1a] bg-[length:200%_auto] animate-gradient-x" />
+                        <span className="absolute inset-0 bg-linear-to-r from-[#67944e] via-[#86b06a] to-[#1a1a1a] bg-size-[200%_auto] animate-gradient-x" />
                       </span>
                     </Link>
 
@@ -143,7 +143,7 @@ export default function Navbar() {
 
       {/* Modern Slide-out Drawer (Mobile/Tablet) */}
       <div
-        className={`fixed inset-0 z-[100] transition-opacity duration-300 ${
+        className={`fixed inset-0 z-100 transition-opacity duration-300 ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
         role="dialog"
