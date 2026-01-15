@@ -24,7 +24,7 @@ export default function Navbar() {
     <header>
       <nav
         aria-label="Main Navigation"
-        className={`fixed w-full z-50 transition-all duration-300 ${
+        className={`fixed w-full z-50 transition-all duration-300 rounded-2xl ${
           scrolled ? "top-2 sm:top-4 px-2 sm:px-6" : "top-10 px-0 md:px-6"
         }`}
       >

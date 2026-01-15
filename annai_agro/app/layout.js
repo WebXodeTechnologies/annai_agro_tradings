@@ -86,7 +86,7 @@ export default function RootLayout({ children }) {
         />
         <Toaster position="top-center" reverseOrder={false} />
         <Navbar />
-        <main className="min-h-screen relative">{children}</main>
+        <main className="min-h-screen py-20">{children}</main>
         <Footer />
       </body>
     </html>
