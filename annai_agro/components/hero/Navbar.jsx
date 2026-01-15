@@ -7,6 +7,7 @@ import { NAV_LINKS } from "@/constants";
 import logo from "@/public/logo/Logo1.png";
 import { TbMenuDeep } from "react-icons/tb";
 import { IoCloseOutline, IoChevronDown } from "react-icons/io5";
+import Button from "../ui/Button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -120,19 +121,20 @@ export default function Navbar() {
 
             {/* Right Side Actions */}
             <div className="flex items-center gap-4">
-              <Link
+              {/* Reusable Button - Hidden only on small/tablet as per your logic */}
+              <Button
+                text="Get Started"
                 href="/contact"
-                className="hidden sm:inline-block md:hidden lg:inline-block bg-slate-900 text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-green-700 hover:shadow-lg hover:shadow-green-900/20 transition-all active:scale-95 uppercase"
-              >
-                Get Started
-              </Link>
+                size="sm"
+                className="hidden sm:inline-flex md:hidden lg:inline-flex"
+              />
 
-              {/* Mobile Menu Toggle (Below lg) */}
+              {/* Mobile Menu Toggle */}
               <button
                 onClick={() => setIsOpen(true)}
                 aria-label="Open Navigation Menu"
                 aria-expanded={isOpen}
-                className="lg:hidden p-2 text-slate-900 hover:bg-slate-100 rounded-xl transition-colors"
+                className="lg:hidden p-2 text-slate-900 hover:bg-slate-100 rounded-xl transition-colors focus:ring-2 focus:ring-slate-200"
               >
                 <TbMenuDeep size={28} />
               </button>
