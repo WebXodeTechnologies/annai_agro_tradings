@@ -36,9 +36,9 @@ export default function WorldMap({
   };
 
   return (
-    <div className="w-full aspect-[2/1] dark:bg-slate-950 bg-white rounded-3xl relative overflow-hidden border border-slate-200 dark:border-slate-800 shadow-2xl">
+    <div className="w-full aspect-2/1 dark:bg-slate-950 bg-white rounded-3xl relative overflow-hidden border border-slate-200 dark:border-slate-800 shadow-2xl">
       {/* Background Glow Effect */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#67944e15] via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-[#67944e15] via-transparent to-transparent" />
 
       <Image
         src={`data:image/svg+xml;utf8,${encodeURIComponent(svgMap)}`}
