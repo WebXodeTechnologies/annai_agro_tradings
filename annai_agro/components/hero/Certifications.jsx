@@ -24,7 +24,7 @@ const Certifications = () => {
     <section className="py-20 bg-white" aria-labelledby="cert-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header - Improved for SEO with Keywords */}
-        <header className="flex flex-col md:flex-row items-center justify-between mb-16 gap-6">
+        <header className="flex flex-col md:flex-row items-center justify-center mb-16 gap-6">
           <div className="text-center md:text-left">
             <h2
               id="cert-heading"
