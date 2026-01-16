@@ -61,3 +61,55 @@ export const PRODUCT_CATEGORIES = [
     color: "bg-amber-50",
   },
 ];
+
+export const BEST_SELLERS = [
+  {
+    id: "bs-1",
+    name: "Dry Red Chilli",
+    category: "Spices",
+    image: "/hero/bestSellers/RedChilli.jpg",
+    slug: "dry-red-chilli",
+    specs: ["S4/S17 Stemless", "High Pungency", "Moisture < 12%"],
+  },
+  {
+    id: "bs-2",
+    name: "Turmeric Finger",
+    category: "Spices",
+    image: "/hero/bestSellers/turmeric.jpg",
+    slug: "turmeric-finger",
+    specs: ["Curcumin 3% - 5%", "Double Polished", "Salem/Erode Origin"],
+  },
+  {
+    id: "bs-3",
+    name: "Green Cardamom",
+    category: "Spices",
+    image: "/hero/bestSellers/card.jpg",
+    slug: "green-cardamom",
+    specs: ["7mm - 8mm Grade", "Deep Green Color", "Aromatic Export Quality"],
+  },
+  {
+    id: "bs-4",
+    name: "Black Pepper",
+    category: "Spices",
+    image: "/hero/bestSellers/BP.jpg",
+    slug: "black-pepper",
+    specs: ["500g - 550g GL", "Machine Cleaned", "Malabar Origin"],
+  },
+  {
+    id: "bs-5",
+    name: "Koda Millet",
+    category: "Millets",
+    image: "/hero/bestSellers/millet.jpg",
+    slug: "koda-millet",
+    specs: ["Hulled & Cleaned", "High Fiber Content", "Gluten-Free"],
+  },
+  {
+    id: "bs-6",
+    name: "Seeraga Samba Rice",
+    category: "Cereals",
+    image: "/hero/bestSellers/Rice.jpg",
+    slug: "seeraga-samba",
+    specs: ["Aromatic Tiny Grain", "Aged 12+ Months", "Traditional Variety"],
+  },
+ 
+];

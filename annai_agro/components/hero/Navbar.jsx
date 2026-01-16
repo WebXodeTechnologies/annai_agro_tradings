@@ -126,7 +126,7 @@ export default function Navbar() {
                 text="Get Started"
                 href="/contact"
                 size="sm"
-                className="hidden sm:inline-flex md:hidden lg:inline-flex"
+                className="hidden md:hidden lg:inline-flex"
               />
 
               {/* Mobile Menu Toggle */}

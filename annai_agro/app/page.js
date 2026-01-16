@@ -1,4 +1,5 @@
 import About from "@/components/hero/About";
+import BestSeller from "@/components/hero/BestSeller";
 import HeroBanner from "@/components/hero/HeroBanner";
 import Products from "@/components/hero/Products";
 
@@ -9,6 +10,7 @@ export default function Home() {
     <HeroBanner/>
     <About/>
     <Products/>
+    <BestSeller/>
 
   </section>
   );
