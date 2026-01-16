@@ -120,3 +120,32 @@ export const BEST_SELLERS = [
     specs: ["Aromatic Tiny Grain", "Aged 12+ Months", "Traditional Variety"],
   },
 ];
+
+
+export const CERTIFICATIONS = [
+  {
+    id: "fssai",
+    title: "FSSAI",
+    image: "/hero/certifications/fssai-seeklogo.png",
+    subtitle: "Food Safety Standards Authority",
+    description: "Licensing for food safety management and quality assurance.",
+    color: "bg-orange-50",
+  },
+  {
+    id: "spices-board",
+    title: "Spices Board of India",
+    image: "/hero/certifications/spice.png",
+    subtitle: "Registration as Exporter (CRES)",
+    description: "Mandatory authorization for exporting premium Indian spices globally.",
+    color: "bg-emerald-50",
+  },
+  {
+    id: "apeda",
+    title: "APEDA",
+    image: "/hero/certifications/apeda.png",
+    subtitle: "Agro Products Export Authority",
+    description: "Ensures compliance with international quality standards for agro exports.",
+    color: "bg-blue-50",
+  },
+
+];
