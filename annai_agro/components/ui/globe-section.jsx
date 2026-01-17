@@ -27,7 +27,7 @@ const globeConfig = {
   emissiveIntensity: 0,
   shininess: 0.1, // Slight sheen for texture
   polygonColor: "rgba(255,255,255,0.7)", // Pure white countries
-  ambientLight: "#cccc", // Full white light to keep colors crisp
+  ambientLight: "#ccc", // Full white light to keep colors crisp
   directionalLeftLight: "#ffffff",
   directionalTopLight: "#ffffff",
   pointLight: "#ffffff",

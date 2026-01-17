@@ -29,17 +29,17 @@ export default function ExportMap() {
                 id="export-heading"
                 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-slate-900 leading-tight"
               >
-                Trusted{" "}
+                Trusted
                 <span className="text-[#67944e]">
                   Agro Products Exporter from India
-                </span>{" "}
+                </span>
                 to 10+ Countries
               </h2>
             </header>
 
             <div className="space-y-4 text-slate-600 font-body text-lg leading-relaxed">
               <p>
-                As a leading{" "}
+                As a leading
                 <strong className="text-slate-900">
                   bulk agricultural products supplier
                 </strong>
@@ -47,20 +47,19 @@ export default function ExportMap() {
                 label packaging. Our diligence has made us a preferred choice
                 for those seeking a reliable
                 <strong className="text-slate-900">
-                  {" "}
                   B2B food supplier in India
                 </strong>
                 .
               </p>
               <p>
-                We specialize in premium{" "}
+                We specialize in premium
                 <strong className="text-slate-900">
                   Indian spices and millets exporter
-                </strong>{" "}
-                services and agro-derivatives, acting as a top{" "}
+                </strong>
+                services and agro-derivatives, acting as a top
                 <strong className="text-slate-900">
                   organic food exporter from India
-                </strong>{" "}
+                </strong>
                 to the EU, UK, USA, Malaysia, Middle East, and Africa.
               </p>
             </div>
@@ -81,7 +80,8 @@ export default function ExportMap() {
               <dt className="text-3xl md:text-4xl font-black text-[#67944e] font-heading">
                 {stat.value}
               </dt>
-              <dd className="text-sm md:text-base text-slate-500 font-medium max-w-37.5 mx-auto">
+              {/* Label: Use Slate-600 or 700 for contrast against white/slate-50 */}
+              <dd className="text-sm md:text-base text-slate-700 font-medium max-w-37.5 mx-auto">
                 {stat.label}
               </dd>
             </motion.div>

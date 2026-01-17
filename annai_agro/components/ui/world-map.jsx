@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function WorldMap({
   dots = [],
-  lineColor = "#67944e" // Updated to your brand green
+  lineColor = "#67944e", // Updated to your brand green
 }) {
   const svgRef = useRef(null);
   const { theme } = useTheme();
@@ -18,7 +18,7 @@ export default function WorldMap({
   const svgMap = map.getSVG({
     radius: 0.22,
     // Using a subtle vibrant green for the dots instead of slate
-    color: theme === "dark" ? "#67944e30" : "#67944e40", 
+    color: theme === "dark" ? "#67944e30" : "#67944e40",
     shape: "circle",
     backgroundColor: theme === "dark" ? "#0f172a" : "#f8fafc",
   });
@@ -104,26 +104,27 @@ export default function WorldMap({
 
         {/* 4. Refined Hub Points with Pulse */}
         {dots.map((dot, i) => {
-  const start = projectPoint(dot.start.lat, dot.start.lng);
-  const end = projectPoint(dot.end.lat, dot.end.lng);
-  return (
-    <g key={`points-${i}`}> {/* Using <g> (SVG Group) is safer than Fragments inside SVGs */}
-      <circle cx={start.x} cy={start.y} r="3" fill={lineColor} />
-      <circle cx={end.x} cy={end.y} r="3" fill={lineColor} />
-      
-      <motion.circle
-        cx={end.x}
-        cy={end.y}
-        r="3"
-        stroke={lineColor}
-        strokeWidth="1"
-        fill="transparent"
-        animate={{ r: [3, 12], opacity: [0.6, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-      />
-    </g>
-  );
-})}
+          const start = projectPoint(dot.start.lat, dot.start.lng);
+          const end = projectPoint(dot.end.lat, dot.end.lng);
+          return (
+            <g key={`points-${i}`}>
+              {" "}
+              {/* Using <g> (SVG Group) is safer than Fragments inside SVGs */}
+              <circle cx={start.x} cy={start.y} r="3" fill={lineColor} />
+              <circle cx={end.x} cy={end.y} r="3" fill={lineColor} />
+              <motion.circle
+                cx={end.x}
+                cy={end.y}
+                r="3"
+                stroke={lineColor}
+                strokeWidth="1"
+                fill="transparent"
+                animate={{ r: [3, 12], opacity: [0.6, 0] }}
+                transition={{ duration: 2, repeat: Infinity }}
+              />
+            </g>
+          );
+        })}
       </svg>
     </div>
   );
