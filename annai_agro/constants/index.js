@@ -10,7 +10,7 @@ export const NAV_LINKS = [
       { name: "Grains & Pulses", href: "/products/pulses" },
     ],
   },
-  { name: "Gallery", href: "/Gallery" },
+  { name: "Gallery", href: "/gallery" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
@@ -149,3 +149,5 @@ export const CERTIFICATIONS = [
   },
 
 ];
+
+
