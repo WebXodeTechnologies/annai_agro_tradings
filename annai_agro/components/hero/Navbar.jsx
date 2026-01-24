@@ -53,10 +53,12 @@ export default function Navbar() {
                 />
               </div>
               <div className="flex flex-col ml-2">
+               <strong>
                 <span className="font-heading text-lg md:text-xl font-black text-slate-900 leading-none tracking-tight">
                   ANNAI AGRO
                 </span>
-                <span className="text-[10px] md:text-xs font-bold  tracking-[0.2em] uppercase">
+                </strong> 
+                <span className="text-[15px] md:text-md font-bold  tracking-[0.4em] uppercase">
                   Tradings
                 </span>
               </div>
