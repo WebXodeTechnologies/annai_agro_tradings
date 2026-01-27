@@ -3,6 +3,7 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import Navbar from "@/components/hero/Navbar";
 import Footer from "@/components/hero/Footer";
+import WhatsAppButton from "@/components/hero/WhatsappButton";
 
 const fontHeading = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -105,6 +106,7 @@ export default function RootLayout({ children }) {
         <Toaster position="top-center" reverseOrder={false} />
         <Navbar />
         <main className="min-h-screen py-20">{children}</main>
+        <WhatsAppButton />
         <Footer />
       </body>
     </html>

@@ -72,13 +72,13 @@ export default function Footer() {
               title="Annai Agro Tradings Home"
             >
               <div className="flex items-center gap-4 bg-white/5 p-3 rounded-2xl backdrop-blur-md border border-white/10 group-hover:border-[#67944e]/50 transition-all duration-500">
-                <div className="relative w-14 h-14 brightness-0 invert">
+                <div className="relative w-14 h-14 brightness-0 invert py-2">
                   <Image
                     src={logo}
                     alt="Annai Agro Tradings Logo"
-                    width={56}
-                    height={56}
-                    className="object-contain p-1"
+                    width={70}
+                    height={70}
+                    className="object-cover"
                     loading="lazy"
                   />
                 </div>

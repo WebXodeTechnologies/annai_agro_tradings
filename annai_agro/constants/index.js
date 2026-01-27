@@ -12,7 +12,7 @@ export const NAV_LINKS = [
 
 export const CONTACT_DETAILS = {
   phone: "+91-9344295395",
-  email: "annaiagrotradings@gmail.com",
+  email: "gokul@annaiagrotradings.com",
   address: "1/263, Keeranur, Nallur, Ramanathapuram, Tamil Nadu, 623704",
   socials: {
     linkedin: "https://www.linkedin.com/in/gokulnath-ramesh-4434a93a4/",
