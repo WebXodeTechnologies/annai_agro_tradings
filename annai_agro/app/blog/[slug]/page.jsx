@@ -46,7 +46,7 @@ export default async function BlogPostPage({ params }) {
       <main className="pt-32 pb-20 bg-white">
         <article className="max-w-4xl mx-auto px-4 sm:px-6">
           
-          <Link href="/blog" className="text-[#67944e] font-black uppercase tracking-[0.2em] text-[10px] mb-8 inline-block hover:translate-x-[-4px] transition-transform">
+          <Link href="/blog" className="text-[#67944e] font-black uppercase tracking-[0.2em] text-[10px] mb-8 inline-block hover:-translate-x-1 transition-transform">
               ← Back to Insights
           </Link>
 
