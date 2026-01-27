@@ -48,7 +48,17 @@ export const metadata = {
     type: "website",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 // Next.js 13+ way to handle Viewport
@@ -62,16 +72,24 @@ export default function RootLayout({ children }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://www.annaiagro.com/#organization",
     name: "Annai Agro Tradings",
     url: "https://www.annaiagro.com",
     logo: "https://www.annaiagro.com/logo.png",
+    image: "https://www.annaiagro.com/og-image.jpg",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+91-9345336311",
+      telephone: "+91-9344295395",
       contactType: "sales",
-      availableLanguage: "en",
+      areaServed: "Worldwide",
+      availableLanguage: ["en", "Tamil"],
     },
     sameAs: ["https://linkedin.com/company/annai-agro-tradings"],
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "IN",
+      addressRegion: "Tamil Nadu",
+    },
   };
 
   return (

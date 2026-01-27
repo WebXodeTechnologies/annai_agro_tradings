@@ -34,7 +34,7 @@ const Certifications = () => {
             </h2>
             <p className="text-slate-600 max-w-xl font-body text-lg leading-relaxed">
               Annai Agro Tradings is a fully{" "}
-              <strong>authorized Indian exporter</strong>. We comply with
+              <strong>Authorized Indian exporter</strong>. We comply with
               international safety standards to ensure secure B2B global trade.
             </p>
           </div>

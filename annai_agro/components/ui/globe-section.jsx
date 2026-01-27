@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
 const World = dynamic(
@@ -8,14 +7,13 @@ const World = dynamic(
   {
     ssr: false,
     loading: () => (
-      <div className="h-160 w-full flex items-center justify-center bg-slate-50/10 animate-pulse rounded-3xl" />
+      <div className="h-150 w-full flex items-center justify-center bg-slate-50/10 animate-pulse rounded-3xl" />
     ),
-  }
+  },
 );
 
 const NAMAKKAL = { lat: 11.2194, lng: 78.1678 };
 const BRAND_GREEN = "#67944e";
-const LIGHT_GREEN_BASE = "#f0fdf4"; // Soft Mint Green base
 
 const globeConfig = {
   pointSize: 7,
@@ -103,14 +101,12 @@ export function GlobeSection() {
       <div className="max-w-7xl mx-auto px-4 relative z-20">
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-10 items-center">
           {/* Globe Container */}
-          <div className="relative h-100 md:h-150 w-full flex items-center justify-center">
+          <div className="relative h-[400px] md:h-[700px] w-full flex items-center justify-center">
             <World data={exportArcs} globeConfig={globeConfig} />
           </div>
-
           {/* Text Content */}
         </div>
       </div>
-
       {/* Subtle fade to prevent harsh bottom edges */}
       <div className="absolute inset-x-0 bottom-0 h-20 bg-linear-to-t from-white dark:from-black to-transparent pointer-events-none" />
     </section>

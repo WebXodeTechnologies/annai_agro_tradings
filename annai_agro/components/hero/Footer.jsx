@@ -239,7 +239,7 @@ export default function Footer() {
             {["Privacy", "Terms", "Compliance"].map((item) => (
               <Link
                 key={item}
-                href={`/${item.toLowerCase()}`}
+                href="/"
                 className="text-slate-300 hover:text-[#67944e] transition-colors"
               >
                 {item}

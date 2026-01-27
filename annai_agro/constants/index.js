@@ -58,7 +58,7 @@ export const PRODUCT_CATEGORIES = [
   {
     id: 4,
     category: "Natural Sugar",
-    image: "/hero/Products/Sugar.jpg",
+    image: "/products/millets/pm-2.jpg",
     description: "Traditional chemical-free sweeteners.",
     items: ["Palm Jaggery"],
     color: "bg-amber-50",

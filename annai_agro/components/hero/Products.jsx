@@ -20,7 +20,7 @@ const Products = () => {
             Our <span className="text-[#67944e]">Product Portfolio</span>
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto font-body text-lg leading-relaxed">
-            Leading <strong>agro products exporter in India</strong>, providing 
+            Leading <strong>Agro products exporter in India</strong>, providing 
             premium spices, millets, and organic cereals for global B2B supply.
           </p>
         </header>
