@@ -57,7 +57,7 @@ const About = () => {
                 <strong>Annai Agro Tradings</strong> is a globally recognized
                 <span className="text-slate-600 font-body">
                   {" "}
-                  organic food exporter in India
+                  Premium food exporter in India
                 </span>
                 . We specialize in manufacturing and supplying premium
                 <strong> Indian spices, millets</strong>, traditional rice, and
@@ -65,9 +65,9 @@ const About = () => {
               </p>
 
               <p className="text-slate-600 leading-relaxed font-body">
-                As a premier <strong>B2B food supplier in India</strong> and a
+                As a premier <strong>B2B food exporters in India</strong> and a
                 <strong> Spice Board registered exporter</strong>, we bridge the
-                gap between rural Indian farms and global quality standards. Our
+                gap between rural Indian farmers and global quality standards. Our
                 <strong> bulk agricultural products</strong> ensure
                 uncompromising freshness and nutritional integrity for every
                 shipment.
