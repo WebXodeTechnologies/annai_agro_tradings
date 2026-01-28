@@ -4,6 +4,7 @@ import { Toaster } from "react-hot-toast";
 import Navbar from "@/components/hero/Navbar";
 import Footer from "@/components/hero/Footer";
 import WhatsAppButton from "@/components/hero/WhatsappButton";
+import { GoogleTagManager } from '@next/third-parties/google';
 
 
 const fontHeading = Bricolage_Grotesque({
@@ -96,6 +97,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+      <GoogleTagManager gtmId="GTM-KQFZRD3D" />
       <body
         className={`${fontHeading.variable} ${fontBody.variable} font-body antialiased bg-white text-slate-900 selection:bg-[#67944e] selection:text-white`}
       >
