@@ -3,13 +3,17 @@ import React, { useState, useEffect } from 'react';
 import { IoLocationSharp, IoMail, IoCall, IoLogoLinkedin, IoLogoFacebook, IoLogoInstagram } from 'react-icons/io5';
 
 const ContactSection = () => {
-  // Correct Coordinates for Ramanathapuram facility
-  const lat = 9.3242; 
-  const lng = 78.5833;
+  // Updated Precise Coordinates
+  const lat = 9.39436719368992; 
+  const lng = 78.4861653601726;
   const address = "1/263, Keeranur, Nallur, Ramanathapuram, Tamil Nadu 623704";
 
-  // Fixed the Map Embed URL to a standard Google Maps format
-  const mapEmbedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.6433246851614!2d78.5807!3d9.3242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMTknMjcuMSJOIDc4wrAzNScwMC4wIkU!5e0!3m2!1sen!2sin!4v1706123456789!5m2!1sen!2sin`;
+  /**
+   * Precise Map Embed URL 
+   * - z=17: Optimal zoom level for facilities
+   * - q: Centers the pin exactly on your coordinates
+   */
+  const mapEmbedUrl = `https://maps.google.com/maps?q=${lat},${lng}&z=17&output=embed`;
 
   const [showMap, setShowMap] = useState(false);
 
@@ -35,7 +39,7 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
           
           {/* LEFT COLUMN: Map Container */}
-          <div className="relative min-h-112.5 rounded-[2.5rem] overflow-hidden shadow-xl border-8 border-slate-50 group bg-slate-100">
+          <div className="relative min-h-[450px] rounded-[2.5rem] overflow-hidden shadow-xl border-8 border-slate-50 group bg-slate-100">
             {!showMap ? (
               <div className="absolute inset-0 flex items-center justify-center flex-col gap-4">
                 <div className="w-10 h-10 border-4 border-[#67944e] border-t-transparent rounded-full animate-spin"></div>
@@ -45,7 +49,7 @@ const ContactSection = () => {
               <iframe
                 title="Annai Agro Location"
                 src={mapEmbedUrl}
-                className="absolute inset-0 w-full h-full border-0 grayscale hover:grayscale-0 transition-all duration-700"
+                className="absolute inset-0 w-full h-full border-0 transition-all duration-700"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -74,10 +78,10 @@ const ContactSection = () => {
                   value="+91 93442 95395"
                 />
                 <ContactLink
-                  href="mailto:info@annaiagro.com"
+                  href="mailto:info@annaiagrotradings.com"
                   icon={<IoMail />}
                   title="Email Us"
-                  value="info@annaiagro.com"
+                  value="info@annaiagrotradings.com"
                 />
               </div>
             </div>
@@ -98,7 +102,7 @@ const ContactSection = () => {
                     icon={<IoLogoFacebook />} 
                     label="Facebook" 
                     color="hover:bg-[#1877f2]" 
-                    href="#" 
+                    href="https://www.facebook.com/profile.php?id=61587328765249" 
                 />
                 <SocialIcon 
                     icon={<IoLogoInstagram />} 

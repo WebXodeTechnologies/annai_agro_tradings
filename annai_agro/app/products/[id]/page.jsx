@@ -52,7 +52,7 @@ export default async function ProductPage({ params }) {
     offers: {
       "@type": "Offer",
       url: `https://annaiagro.com/products/${id}`,
-      priceCurrency: "USD", // Usually USD for international export
+      priceCurrency: "USD", 
       availability: "https://schema.org/InStock",
     },
   };
@@ -69,7 +69,7 @@ export default async function ProductPage({ params }) {
           <div className="lg:col-span-5">
             <div className="sticky top-32 space-y-4">
               <div className="lg:col-span-5">
-                <InteractiveProductImage images={images} name={product.name} />
+                <InteractiveProductImage images={images} name={product.name} className="object-cover" />
               </div>
             </div>
           </div>

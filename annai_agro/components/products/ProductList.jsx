@@ -25,7 +25,7 @@ export const ProductList = () => {
           Export Quality <span className="text-[#67944e]">Agro Products</span> from India
         </h1>
         <p className="max-w-2xl mx-auto text-slate-500 font-medium">
-          Leading bulk supplier of Spices, Millets, and Cereals to global B2B markets.
+          Leading bulk exporter of Spices, Millets, and Cereals to global B2B markets.
         </p>
       </header>
 

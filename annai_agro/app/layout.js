@@ -4,8 +4,7 @@ import { Toaster } from "react-hot-toast";
 import Navbar from "@/components/hero/Navbar";
 import Footer from "@/components/hero/Footer";
 import WhatsAppButton from "@/components/hero/WhatsappButton";
-import { GoogleTagManager } from '@next/third-parties/google';
-
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const fontHeading = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -28,13 +27,13 @@ export const metadata = {
     "Leading B2B agro products exporter from India. Specializing in organic spices, millets, and cereals. Certified NPOP, NOP, and EU organic food supplier.",
   metadataBase: new URL("https://www.annaiagro.com"),
   alternates: { canonical: "/" },
-  
+
   icons: {
     icon: [
       { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
       { url: "/favicon.svg", type: "image/svg+xml" },
     ],
-    shortcut: "/favicon.ico",
+    shortcut: "/favicon.ico", 
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",

@@ -3,10 +3,10 @@ export default function robots() {
   return {
     rules: {
       userAgent: '*',
-      allow: '/',
+      allow: ['/', '/_next/static/', '/favicon.ico',],
       disallow: [
         '/api/',      // Private backend routes
-        '/_next/',     // Next.js internal files
+        '/_next/data/',     // Next.js internal files
       ],
     },
     sitemap: 'https://annaiagrotradings.com/sitemap.xml',

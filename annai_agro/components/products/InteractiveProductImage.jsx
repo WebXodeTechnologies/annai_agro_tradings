@@ -27,7 +27,7 @@ export function InteractiveProductImage({ images, name }) {
   return (
     <div className="sticky top-32 space-y-8">
       <div
-        className="relative aspect-square rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-white shadow-[0_20px_50px_rgba(0,0,0,0.05)] cursor-zoom-in"
+        className="relative aspect-square rounded-[2rem] md:rounded-[3rem] overflow-hidden cursor-zoom-in"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onMouseMove={handleMouseMove}

@@ -156,10 +156,10 @@ export const products = [
     "/products/dry-chilli/img1.jpg",    
     "/products/dry-chilli/chilli-2.jpg",       
     "/products/dry-chilli/teja.jpg", 
-    "/products/dry-chilli/chill-all.png"      
+    "/products/millets/ramnad-mundu-dry-red-chilli.png"      
   ],
     overview:
-      "Leading dry red chilli exporter from India. We supply premium medium-heat varieties sourced from organic farmers, including GI-tagged Ramnad Mundu. As a trusted dry red chilli bulk exporters, we ensure global export standards.",
+      "Leading dry red chilli exporter from India. We supply premium medium-heat varieties sourced from direct farmers, including GI-tagged Ramnad Mundu. As a trusted dry red chilli bulk exporters, we ensure global export standards.",
     hsn: "09042110",
     seoKeywords: [
       "dry red chilli exporter india",
@@ -193,7 +193,7 @@ export const products = [
     cat: "Spices",
     img: "/gallery/turmeric.jpg",
     overview:
-      "Prominent turmeric exporter from India specializing in high-curcumin fingers. We are an organic turmeric supplier in India serving B2B markets as a turmeric bulk supplier and wholesale partner.",
+      "Prominent turmeric exporter from India specializing in high-curcumin fingers. We are turmeric exporter in India serving B2B markets as a turmeric bulk exporter and wholesale partner.",
     hsn: "09103020",
     seoKeywords: [
       "turmeric exporter india",
@@ -229,7 +229,7 @@ export const products = [
     cat: "Spices",
     img: "/products/cardomom/img1.jpg",
     overview:
-      "Authentic green cardamom supplier in India. Sourced from the Western Ghats, we act as a cardamom bulk supplier and cardamom exporter from India for premium export-grade.",
+      "Premium Indian Green Cardamom sourced from the high-altitude Western Ghats. We operate as global merchants, providing bulk shipments of export-grade pods to the international spice trade.",
     hsn: "090831",
     seoKeywords: [
       "cardamom exporter india",
@@ -300,7 +300,7 @@ export const products = [
     cat: "Millets",
     img: "/products/millets/koda.png",
     overview:
-      "Koda millet exporter from India. As a leading koda millet supplier in India, we provide high-fiber, gluten-free grains to koda millet bulk buyers globally.",
+      "Koda millet exporter from India. we provide high-fiber, gluten-free grains to koda millet bulk buyers globally.",
     hsn: "10089090",
     seoKeywords: [
       "koda millet exporter india",
@@ -457,7 +457,7 @@ export const products = [
     cat: "Cereals",
     img: "/products/millets/bs-2.jpg",
     overview:
-      "Established non-basmati rice exporter from India. We are a reliable non-basmati rice supplier in India and indian rice exporter for long and short grain varieties.",
+      "Leading the export of authentic Indian non-basmati rice, from slender long-grain to tender short-grain varieties. Our grains are precision-milled to meet global food safety standards, providing a reliable foundation for the world's most demanding culinary markets",
     hsn: "10063010",
     seoKeywords: [
       "non basmati rice exporter india",
@@ -501,7 +501,7 @@ export const products = [
     cat: "Cereals",
     img: "/products/millets/redrice-2.jpg",
     overview:
-      "Leading red rice exporter from India. As a red rice supplier and red rice exporter, we provide nutrient-rich unpolished rice, polished, and semi-polished rice for health-conscious bulk buyers.",
+      "Direct merchant of authentic Indian red rice, delivering a powerhouse of iron and fiber to international markets. Our specialized processing ensures the highest quality across all grades, from bran-rich unpolished grains to refined semi-polished and polished options, tailored for bulk health-food procurement.",
     hsn: "10063010",
     seoKeywords: [
       "red rice exporter india",
@@ -587,7 +587,7 @@ export const BLOG_POSTS = [
     category: "Authentic Spices",
     date: "Jan 18, 2026",
     readTime: "11 min",
-    image: "/products/dry-chilli/chill-all.png",
+    image: "/products/dry-chilli/teja.jpg",
     targetLink: "/products/dry-red-chilli",
     content: {
       intro: "Industrial chilli procurement is defined by two metrics: Heat (SHU) and Color (ASTA). Maintaining these through sea-transit requires strict moisture control.",
@@ -630,7 +630,7 @@ export const BLOG_POSTS = [
     date: "Jan 20, 2026",
     readTime: "8 min",
     image: "/products/millets/tm-2.jpg",
-    targetLink: "/products/thooyamalli-rice",
+    targetLink: "/products/seeraga-samba-rice",
     content: {
       intro: "Thooyamalli is more than a staple; it is a functional food. Its resistance to pests during growth translates into a grain that requires minimal chemical intervention.",
       sections: [
@@ -671,7 +671,7 @@ export const BLOG_POSTS = [
     category: "Product Benefits",
     date: "Jan 23, 2026",
     readTime: "8 min",
-    image: "/products/millets/pm-3.jpg", 
+    image: "/products/millets/pamj.jpg", 
     targetLink: "/products/palm-jaggery",
     content: {
       intro: "Organic Palm Jaggery (Karupatti) is a complex carbohydrate that functions as a mineral-rich additive for health-centric food lines.",
@@ -735,7 +735,7 @@ export const BLOG_POSTS = [
     date: "Jan 27, 2026",
     readTime: "9 min",
     image: "/products/millets/rice-kanji.jpg",
-    targetLink: "/products/rice-kanji.jpg",
+    targetLink: "/products/red-rice",
     content: {
       intro: "Traditional fermentation is a biological pre-processing step that converts complex starches into easily absorbable nutrients.",
       sections: [
