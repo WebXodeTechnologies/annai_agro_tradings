@@ -17,7 +17,7 @@ export default function Home() {
       <BestSeller />
       <Certifications/>
       <Worldmap/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
       <ContactMap/>
     </section>
   );
